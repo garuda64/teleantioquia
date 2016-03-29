@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @menu.position %>
+</p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @menu.nombre %>
+</p>
+
+<p>
+  <strong>Visible:</strong>
+  <%= @menu.visible %>
+</p>
+
+<p>
+  <strong>Background:</strong>
+  <%= @menu.background %>
+</p>
+
+<p>
+  <strong>Label color:</strong>
+  <%= @menu.label_color %>
+</p>
+
+<p>
+  <strong>Width:</strong>
+  <%= @menu.width %>
+</p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @menu.height %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @menu.url %>
+</p>
+
+<%= link_to 'Edit', edit_menu_path(@menu) %> |
+<%= link_to 'Back', menus_path %>

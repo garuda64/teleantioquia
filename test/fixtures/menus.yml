@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  position: MyString
+  nombre: MyString
+  visible: false
+  background: MyString
+  label_color: MyString
+  width: 1
+  height: 1
+  url: MyText
+
+two:
+  position: MyString
+  nombre: MyString
+  visible: false
+  background: MyString
+  label_color: MyString
+  width: 1
+  height: 1
+  url: MyText

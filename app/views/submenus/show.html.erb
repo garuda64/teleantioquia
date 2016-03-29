@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Menus:</strong>
+  <%#= @submenu.menus %>
+</p>
+
+<p>
+  <strong>Visible:</strong>
+  <%= @submenu.visible %>
+</p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @submenu.nombre %>
+</p>
+
+<p>
+  <strong>Background:</strong>
+  <%= @submenu.background %>
+</p>
+
+<p>
+  <strong>Label color:</strong>
+  <%= @submenu.label_color %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @submenu.url %>
+</p>
+
+<%= link_to 'Edit', edit_submenu_path(@submenu) %> |
+<%= link_to 'Back', submenus_path %>
